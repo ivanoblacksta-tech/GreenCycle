@@ -21,7 +21,7 @@ const db = getFirestore(app);
 
 // Register service worker
 if ("serviceWorker" in navigator) {
-  navigator.serviceWorker.register("/firebase-messaging-sw.js");
+  navigator.serviceWorker.register("firebase-messaging-sw.js");
 }
 
 document.getElementById("enable").onclick = async () => {
