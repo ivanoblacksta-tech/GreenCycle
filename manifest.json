@@ -1,7 +1,7 @@
 {
   "name": "GreenCycle",
   "short_name": "GreenCycle",
-  "start_url": "/",
+  "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#2ecc71",
